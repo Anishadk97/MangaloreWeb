@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+        <link href="login.css" rel=stylesheet type="text/css">
+        <script src="login.js"type="text/javascript"></script>
+        <div id="main">
+            <div class="h-tag">
+                <h2>Login to your Mangalore Account</h2>
+            </div>
+            <form action="/LoginP/Mang/mang.html" method="POST">
+               <div class="login">
+                <table cellspacing="2" align="center" cellpadding="8" border="0">
+                    <tr>
+                        <td>
+                            Enter User Name :
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Enter user name here" id="email" class="tb" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Enter Password :
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Enter Password here" id="pwd1" class="tb" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Reset" class="btn" />
+                            <input type="submit" value="Login" class="btn" onClick="login()" />
+                        </td>    
+                    </tr>
+                </table>
+            </div>
+             </form>
+	
+        </div>       
+            
+    </body>
+
+
+</html>
